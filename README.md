@@ -27,7 +27,7 @@ optional arguments:
   -t TITLE [TITLE ...], --title TITLE [TITLE ...]
                         play song of the given title
 ```
-## Demo
-![GithubSnap](./screenshot.png)
+## Screencast
+![GithubSnap](./screencast.gif)
 ## Related
   * [musicquery](https://github.com/zuck007/musicquery) package
