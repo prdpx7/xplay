@@ -7,7 +7,7 @@ import subprocess
 import argparse
 import ConfigParser
 from musicquery import MusicQuery
-
+from colorama import Fore, Style
 def list2str(lst):
     return ' '.join(lst)
 
@@ -18,7 +18,7 @@ def play_music(song_path, title=None, artist=None):
     else:
         cmd = 'xdg-open'
     subprocess.call([cmd, song_path], stdout=DEVNULL, stderr=subprocess.STDOUT)
-    print ('Playing '+ title + ' By ' + artist)
+    print ('Playing '+ Fore.RED + title + Style.RESET_ALL + ' By ' + Fore.RED + artist)
 
 def set_config(music_dir, CONF_FILE):
     config = ConfigParser.ConfigParser()

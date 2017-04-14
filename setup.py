@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name="xplay",
-      version="0.1",
+      version="0.11",
       description="play any song from terminal",
       url="http://github.com/zuck007/xplay",
       author="Pradeep Khileri",
