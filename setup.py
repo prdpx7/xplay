@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name="xplay",
-      version="0.11",
+      version="0.13",
       description="play any song from terminal",
       url="http://github.com/zuck007/xplay",
       author="Pradeep Khileri",
@@ -11,6 +11,7 @@ setup(name="xplay",
       keywords='music song-tags metadata unix linux script cli-tool',
       install_requires=[
           "musicquery",
+          "colorama",
       ],
       zip_safe=False)
 
