@@ -2,7 +2,7 @@
 
 > Play songs from CLI
 
-[![MITlicensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/zuck007/xplay/master/LICENSE) 
+[![MITlicensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/prdpx7/xplay/master/LICENSE)
 [![PyPI version](https://badge.fury.io/py/xplay.svg)](https://badge.fury.io/py/xplay)
 
 ## Installation
@@ -30,4 +30,4 @@ optional arguments:
 ## Screencast
 ![GithubSnap](./screencast.gif)
 ## Related
-  * [musicquery](https://github.com/zuck007/musicquery) package
+  * [musicquery](https://github.com/prdpx7/musicquery) package

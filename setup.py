@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(name="xplay",
-      version="0.13",
+      version="0.14",
       description="play any song from terminal",
-      url="http://github.com/zuck007/xplay",
+      url="http://github.com/prdpx7/xplay",
       author="Pradeep Khileri",
       author_email="pradeepchoudhary009@gmail.com",
       license="MIT",
